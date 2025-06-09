@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+form{
+    box-sizing: border-box;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.delay{
+    display: flex;
+    flex-direction: column;
+}
+
+.delay input{
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.state{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    gap: 30px;
+}
+
+.radio{
+    display: flex;
+   justify-content: start;
+}
