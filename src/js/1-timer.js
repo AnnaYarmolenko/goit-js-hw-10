@@ -68,10 +68,14 @@ const timerId = setInterval(() => {
         startButton.disabled = true;
         clearInterval(timerId);
         iziToast.success({
-          title: 'Success',
           message: 'Timer finished!',
+          position: 'topCenter',
+          progressBar: false,
           icon: false,
         });
+
+        startButton.disabled = true;
+        timeInput.disabled = false;
 
         return;
     }
